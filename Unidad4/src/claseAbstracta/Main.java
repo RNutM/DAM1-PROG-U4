@@ -10,7 +10,7 @@ public class Main {
 
 		Circulo c = new Circulo(1, 2, 5);
 		Cuadrado c2 = new Cuadrado(0, 0, 3);
-		System.out.println("El area del circulo es: " + c.area());
-		System.out.println("El area del cuadrado es: " + c2.area());
+		System.out.println("El área del círculo es: " + c.area());
+		System.out.println("El área del cuadrado es: " + c2.area());
 	}
 }

@@ -1,6 +1,6 @@
 package claseAbstracta;
 
-public class prueba {
+public class Main {
 	/**
 	 * Pruebas de polimorfismo y clases abstractas
 	 * 

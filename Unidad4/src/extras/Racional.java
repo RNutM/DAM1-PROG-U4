@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Racional {
 	/**
-	 * Realizar un programa en Java que pida numerador y denominador para realizar
-	 * operaciones con fracciones y además pueda simplificarlas.
+	 * Crea una clase en Java donde el usuario introduzca el numerador y el denominador
+	 * para realizar operaciones con fracciones y además simplifique los resultados.
 	 * 
 	 * @author Robert G
 	 */

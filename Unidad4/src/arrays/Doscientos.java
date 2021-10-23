@@ -1,4 +1,4 @@
-package repasoArrays;
+package arrays;
 
 import java.util.Scanner;
 

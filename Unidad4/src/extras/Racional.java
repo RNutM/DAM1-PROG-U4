@@ -35,7 +35,6 @@ public class Racional {
 	}
 
 	public Racional() {
-		// TODO Auto-generated constructor stub
 		this.num = 1;
 		this.den = 1;
 	}
@@ -109,7 +108,6 @@ public class Racional {
 		Racional r = new Racional(n, d);
 		r.simplifica();
 		return r;
-
 	}
 
 	// Método para restar fracciones
@@ -127,7 +125,6 @@ public class Racional {
 		Racional r = new Racional(n, d);
 		r.simplifica();
 		return r;
-
 	}
 
 	public static void main(String[] args) {

@@ -69,7 +69,7 @@ public class NIF {
 	// Método para obtener la letra correcta de un DNI
 	public static String obtenerletra(int numero) {
 		int resto = numero % 23;
-		System.out.println("La letra es: " + letras[resto]);
+		System.out.println("La letra del dni es: " + letras[resto]);
 
 		return letras[resto];
 	}

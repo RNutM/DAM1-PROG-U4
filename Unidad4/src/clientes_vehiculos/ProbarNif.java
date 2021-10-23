@@ -11,9 +11,7 @@ public class ProbarNif {
 
 		System.out.println("***********************************");
 		System.out.println("Introduce número de NIF sin letra: ");
-		NIF.obtenerletra(sc.nextInt());
-
-		System.out.println("La letra del dni es: " + NIF.obtenerletra(sc.nextInt()));
+		NIF.obtenerletra(sc.nextInt());		
 
 		sc.close();
 	}

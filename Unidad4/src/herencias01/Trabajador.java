@@ -101,11 +101,12 @@ public class Trabajador {
 
 	public static void main(String[] args) {
 
-		Trabajador t1 = new Trabajador("Marta", 123);
-		Trabajador t2 = new Trabajador("Marta", 123);
+		Trabajador t1 = new Trabajador("José", 123);
+		Trabajador t2 = new Trabajador("Roberto", 456);
 
 		System.out.println("El nº de SS de " + t1.getNombre() + " es: " + t1.getNss());
-
+		System.out.println("El nº de SS de " + t2.getNombre() + " es: " + t2.getNss());
+		
 		if (t1.equals(t2))
 			System.out.println(t1.getNombre() + " y " + t2.getNombre() + " son el mismo trabajador");
 		else

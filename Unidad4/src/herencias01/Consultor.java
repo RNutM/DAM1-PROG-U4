@@ -5,9 +5,9 @@ import java.math.RoundingMode;
 
 public class Consultor extends Trabajador {
 	/**
-	 *  Clase Consultor
-	 *  
-	 *  @author Robert G
+	 * Clase Consultor
+	 * 
+	 * @author Robert G
 	 */
 	public int horas;
 	public double tarifa;
@@ -36,6 +36,7 @@ public class Consultor extends Trabajador {
 	public static void main(String[] args) {
 
 		Consultor c = new Consultor("Luis", 136, 25, 10.37);
-		System.out.println(c.toString() + " gana " + c.calcularPaga());
+		System.out.println(
+				"El " + c.toString() + " ha ganado " + c.calcularPaga() + "€" + " en el total de horas calculadas.");
 	}
 }

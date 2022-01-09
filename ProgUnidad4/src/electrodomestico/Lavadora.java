@@ -60,7 +60,6 @@ public class Lavadora extends Electrodomestico {
 		if (carga <= 0) {
 			throw new IllegalArgumentException();
 		}
-
 		this.carga = carga;
 	}
 

@@ -62,7 +62,6 @@ public class Television extends Electrodomestico {
 		if (pulgadas <= 0) {
 			throw new IllegalArgumentException();
 		}
-
 		this.pulgadas = pulgadas;
 	}
 
@@ -79,5 +78,4 @@ public class Television extends Electrodomestico {
 		return super.toString().replace("Electrodomestico", "Television") + "" + " pulgadas=" + pulgadas + ", tdt="
 				+ tdt;
 	}
-
 }

@@ -55,7 +55,6 @@ public class Electrodomestico {
 
 	// Método comprobar color
 	protected void comprobarColor(colores cl) {
-
 		this.cl = cl;
 	}
 

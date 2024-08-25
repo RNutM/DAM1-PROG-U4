@@ -12,6 +12,7 @@ public class Doscientos {
 	 * @author Robert G
 	 */
 	private int numeros[];
+	private int pos;
 
 	// Constructor
 	Doscientos() {
@@ -24,18 +25,20 @@ public class Doscientos {
 		}
 	}
 
+	
 	// Método Imprimir mayor
 	public void imprimir() {
 
 		int aux = 0;
 
-		for (int i = 0; i < numeros.length; i++) {
+	
+		for (pos = 0; pos < numeros.length; pos++) {
 
-			System.out.println("El número en posición " + i + " es el " + numeros[i]);
+			System.out.println("El número en posición " + pos + " es el " + numeros[pos]);
 
-			if (numeros[i] > aux)
+			if (numeros[pos] > aux)
 
-				aux = numeros[i];
+				aux = numeros[pos];
 		}
 		System.out.println("El número mayor es " + aux);
 	}
@@ -83,7 +86,7 @@ public class Doscientos {
 			if (numeros[i] % 2 == 0) {
 
 				System.out.println("El 1er número par es: " + numeros[i]
-						+ ", lo puedes comprobar si quieres mirando en la posición 0");
+						+ ", lo puedes comprobar si quieres mirando en la posición " + i);
 				break;// Para que pare de hacer bucle con el primer número par
 			}
 		}
